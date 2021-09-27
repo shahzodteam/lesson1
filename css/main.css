@@ -1,0 +1,33 @@
+.block {
+    width: 25%;
+    text-align: center;
+}
+
+.block:nth-child(2n) {
+    background-color: #F2F2F2;
+}
+
+.images {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: #F2F2F2;
+    height: 100px;
+}
+
+.block:nth-child(2n) .images {
+    background-color: white;
+}
+
+.images img {
+    width: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
